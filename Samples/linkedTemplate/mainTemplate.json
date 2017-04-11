@@ -24,7 +24,7 @@
         },
         "responseLinked" : {
             "type": "string",
-            "value": "[reference('linkedTemplate').outputs.exampleProperty]"
+            "value": "[reference('linkedTemplate').outputs.response]"
         }
     }
 }
