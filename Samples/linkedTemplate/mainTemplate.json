@@ -11,7 +11,7 @@
             "properties": { 
                 "mode": "Incremental", 
                 "templateLink": {
-                "uri": "https://raw.githubusercontent.com/Hugos-MSFT/azure-arm-templates/blob/master/Samples/linkedTemplate/sharedTemplate.json",
+                "uri": "https://raw.githubusercontent.com/Hugos-MSFT/azure-arm-templates/master/Samples/linkedTemplate/sharedTemplate.json",
                 "contentVersion": "1.0.0.0"
                 } 
             } 
