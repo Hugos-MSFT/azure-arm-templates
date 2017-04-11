@@ -3,7 +3,20 @@
     "contentVersion": "1.0.0.0",
     "parameters": {  },
     "variables": {  },
-    "resources": [  ],
+    "resources": [  
+        { 
+            "apiVersion": "2015-01-01", 
+            "name": "linkedTemplate", 
+            "type": "Microsoft.Resources/deployments", 
+            "properties": { 
+                "mode": "Incremental", 
+                "templateLink": {
+                "uri": "https://raw.githubusercontent.com/Hugos-MSFT/azure-arm-templates/blob/master/Samples/linkedTemplate/sharedTemplate.json",
+                "contentVersion": "1.0.0.0"
+                } 
+            } 
+        }
+    ],
     "outputs": {  
         "response" : {
             "type": "string",
