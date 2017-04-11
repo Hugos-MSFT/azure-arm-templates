@@ -5,7 +5,7 @@
     "variables": {  },
     "resources": [  ],
     "outputs": {  
-        "response" : {
+        "result" : {
             "type": "string",
             "value": "Hello from the shared template"
         }
