@@ -23,7 +23,7 @@
             "properties": { 
                 "mode": "Incremental", 
                 "templateLink": {
-                "uri": "[concat('https://raw.githubusercontent.com/exampleuser/templates/master/',parameters('deploymentType'),'Template.json')]",
+                "uri": "[concat('https://raw.githubusercontent.com/Hugos-MSFT/azure-arm-templates/master/Samples/conditionallyLinkTemplate/',parameters('deploymentType'),'Template.json')]",
                 "contentVersion": "1.0.0.0"
                 } 
             } 
