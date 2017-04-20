@@ -99,7 +99,7 @@
             "properties": {
                 "mode": "incremental",
                 "templateLink": {
-                    "uri": "https://gallery.azure.com/artifact/20161101/Microsoft.CustomScriptExtension-arm.2.0.50/Artifacts/MainTemplate.json"
+                    "uri": "https://raw.githubusercontent.com/Hugos-MSFT/azure-arm-templates/master/Samples/bootstrap/extensionTemplate.json"
                 },
                 "parameters": {
                     "vmName": {
