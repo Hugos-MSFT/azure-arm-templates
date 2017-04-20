@@ -38,10 +38,10 @@
         "publicIpAddressType": {
             "type": "string"
         },
-        "ex0_fileUris": {
+        "ext_fileUris": {
             "type": "string"
         },
-        "ex0_arguments": {
+        "ext_arguments": {
             "type": "string"
         }
     },
@@ -109,10 +109,10 @@
                         "value": "[resourceGroup().location]"
                     },
                     "fileUris": {
-                        "value": "[parameters('ex0_fileUris')]"
+                        "value": "[parameters('ext_fileUris')]"
                     },
                     "arguments": {
-                        "value": "[parameters('ex0_arguments')]"
+                        "value": "[parameters('ext_arguments')]"
                     }
                 }
             },

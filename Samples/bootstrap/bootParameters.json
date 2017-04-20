@@ -38,10 +38,10 @@
         "publicIpAddressType": {
             "value": "Dynamic"
         },
-        "ex0_fileUris": {
-            "value": "https://iaasv2tempstorewestus.blob.core.windows.net/vmextensionstemporary-1003bffd801c4bd4-20170420000541036/bootScript.ps1?sv=2015-04-05&sr=c&sig=cWpo9HUpO6ozaSXUcgMsdJm%2F%2FYQJvAkT9pPc9sFx5hU%3D&se=2017-04-21T00%3A05%3A41Z&sp=rw"
+        "ext_fileUris": {
+            "value": "https://raw.githubusercontent.com/Hugos-MSFT/azure-arm-templates/master/Samples/bootstrap/bootScript.ps1"
         },
-        "ex0_arguments": {
+        "ext_arguments": {
             "value": "param1 param2"
         }
     }
