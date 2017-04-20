@@ -1,0 +1,48 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachineName": {
+            "value": "vmBootDemo"
+        },
+        "virtualMachineSize": {
+            "value": "Basic_A1"
+        },
+        "adminUsername": {
+            "value": "hugos"
+        },
+        "virtualNetworkName": {
+            "value": "vnetbootDemo"
+        },
+        "networkInterfaceName": {
+            "value": "nicvmbootdemo"
+        },
+        "networkSecurityGroupName": {
+            "value": "nsgvmBootDemo"
+        },
+        "adminPassword": {
+            "value": "P@55gu0rd!1234"
+        },
+        "addressPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "ipvmBootDemo"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "ex0_fileUris": {
+            "value": "https://iaasv2tempstorewestus.blob.core.windows.net/vmextensionstemporary-1003bffd801c4bd4-20170420000541036/bootScript.ps1?sv=2015-04-05&sr=c&sig=cWpo9HUpO6ozaSXUcgMsdJm%2F%2FYQJvAkT9pPc9sFx5hU%3D&se=2017-04-21T00%3A05%3A41Z&sp=rw"
+        },
+        "ex0_arguments": {
+            "value": "param1 param2"
+        }
+    }
+}
