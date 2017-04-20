@@ -1,0 +1,30 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {  },
+    "variables": {  },
+    "resources": [  
+        { 
+            "apiVersion": "2015-01-01", 
+            "name": "linkedTemplate", 
+            "type": "Microsoft.Resources/deployments", 
+            "properties": { 
+                "mode": "Incremental", 
+                "templateLink": {
+                "uri": "https://raw.githubusercontent.com/Hugos-MSFT/azure-arm-templates/master/Samples/linkedTemplate/sharedTemplate.json",
+                "contentVersion": "1.0.0.0"
+                } 
+            } 
+        }
+    ],
+    "outputs": {  
+        "responseMain" : {
+            "type": "string",
+            "value": "Hello from main template" 
+        },
+        "responseLinked" : {
+            "type": "object",
+            "value": "[reference('linkedTemplate').outputs.result]"
+        }
+    }
+}
