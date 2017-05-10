@@ -30,8 +30,5 @@ Now let's deploy the template:
 az group create --name resourceGroupHelloWorld --location "Central US"
 
 # deploy the template
-az group deployment create \
-    --name hugosDeployment \
-    --resource-group resourceGroupHelloWorld \
-    --template-file https://raw.githubusercontent.com/Hugos-MSFT/azure-arm-templates/master/Samples/get-started/helloWorldTemplate.json \
+az group deployment create --name hugosDeployment --resource-group resourceGroupHelloWorld --template-uri https://raw.githubusercontent.com/Hugos-MSFT/azure-arm-templates/master/Samples/get-started/helloWorldTemplate.json
 ```
