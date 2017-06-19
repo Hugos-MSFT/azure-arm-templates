@@ -33,7 +33,7 @@
     },
     {
       "apiVersion": "[variables('authAPIVersion')]",
-      "name": "hugos_resource_group_level",
+      "name": "DCE46385-7B6B-4E6B-87ED-F011289008D3",
       "type": "Microsoft.Authorization/roleAssignments",
       "properties": {
         "roleDefinitionId": "[variables('owner')]",
