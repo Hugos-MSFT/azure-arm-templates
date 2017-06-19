@@ -34,7 +34,7 @@
     // },
     {
       "apiVersion": "[variables('authAPIVersion')]",
-      "name": "[variables('RBACResourceName')]",
+      "name": "41c5767f-c809-4ea0-9261-816928e3aa50",
       "type": "Microsoft.Authorization/roleAssignments",
       "properties": {
         "roleDefinitionId": "[variables('owner')]",
