@@ -31,16 +31,16 @@
         "principalId": "[parameters('principalId')]",
         "scope": "[resourceId('Microsoft.Storage/storageAccounts',parameters('storageAccountName'))]"
       }
-    },
-    {
-      "apiVersion": "[variables('authAPIVersion')]",
-      "name": "[parameters('principalId')]",
-      "type": "Microsoft.Authorization/roleAssignments",
-      "properties": {
-        "roleDefinitionId": "[variables('owner')]",
-        "principalId": "[parameters('principalId')]",
-        "scope": "[concat('/subscriptions/', subscription().subscriptionId, '/resourceGroups/', resourceGroup().name)]"
-      }
+    // },
+    // {
+    //   "apiVersion": "[variables('authAPIVersion')]",
+    //   "name": "[parameters('principalId')]",
+    //   "type": "Microsoft.Authorization/roleAssignments",
+    //   "properties": {
+    //     "roleDefinitionId": "[variables('owner')]",
+    //     "principalId": "[parameters('principalId')]",
+    //     "scope": "[concat('/subscriptions/', subscription().subscriptionId, '/resourceGroups/', resourceGroup().name)]"
+    //   }
     }
   ]
 }
